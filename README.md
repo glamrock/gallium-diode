@@ -1,6 +1,6 @@
 ###Share photos without over-exposing yourself.
 
-##Removing Photo Metadata
+###Removing Photo Metadata
 You've got options.
 
 ###[ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/)
@@ -22,6 +22,9 @@ To remove the exif/meta data from a folder of images, copy this command into you
 
 If using an automated WordPress plugin, you will need to have ImageMagick installed and running on your server before activating that plugin.
 
+###Legal stuff
+In the US, [it's legal to film the police.](http://images.politico.com/global/2013/03/08/garcia_doj_soi_03-04-13.html) Laws vary greatly.
+
 ##Running a website
 *note: this is best deployed as a Tor hidden service, unless you're prepared to defend against legal attacks*
 
@@ -39,10 +42,13 @@ website.net/gallery/data/copfolder/
 The script in `/gallery` is called "FuckFlickr" and was made available courtesy of the [F.A.T. Lab](http://fffff.at/fuckflickr-info)
 
 ###For your friends and invited people
+*note: this is best deployed as a Tor hidden service, unless you're prepared to defend against legal attacks*
+
+**For ease of maintenance and image management, I recommend using [WordPress](https://wordpress.org) with multiuser enabled.**  There are security problems with every content management system, but WordPress is more of a target for exploits due to its large userbase.  Do not include personally-identifiable information in your setup if you want to remain anonymous.  Once you have WordPress set up and working, move on to the next steps.
 
 **Set images to remove metadata on upload**
 * Install ImageMagick on your server
-* There are a few metadata-removal plugins out there, including "[Resize Image After Upload](http://wordpress.org/plugins/resize-image-after-upload/)" and "[SEO image renamer](http://wordpress.org/plugins/seo-image-renamer/)".
+* There are a few metadata-removal plugins out there, including "[Resize Image After Upload](http://wordpress.org/plugins/resize-image-after-upload/)" and "[SEO image renamer](http://wordpress.org/plugins/seo-image-renamer/)".  The former works very well for removing metadata, while the latter is good if you want all of the information to be replaced with something specific (such as the event, date or location).
 * Pick one and upload their folder to `wp-content/plugins`, then go to Plugins in your administrative site and click activate.
 
 **Invites**
