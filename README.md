@@ -53,3 +53,11 @@ The script in `/gallery` is called "FuckFlickr" and was made available courtesy 
 
 **Invites**
 * You can set invite codes using the ["Secure Invites" plugin](http://wordpress.org/plugins/wordpress-mu-secure-invites/). Upload the folder to `wp-content/plugins`, but don't activate it until your other settings are the way you'd like them to be.  If you get an error while changing settings later, deactivate the plugin and try again.
+
+
+####License
+These instructions and scripts are licensed under the BSD 2-clause license. This means you can give these scripts to other people to use for free. You can also use them for free.  But if you put them on your website, you have to include the license and provide everything free of charge.
+
+If you enjoyed these and want to contribute, feel free to fork this repo on github or email contributions to griffin [at] cryptolab.net
+
+*Do something awesome.*
