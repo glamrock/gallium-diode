@@ -7,11 +7,11 @@
 ##############################################################
 
 // name your fflickr install
-$NAME = "F.A.T. PHOTOS";
+$NAME = "Gallery";
 
 // URL to your fuckflickr system, with trailing slash
 // (optional, should autodetect just fine)
-$LINK = "http://fffff.at/fuckflickr/";
+$LINK = "";
 
 // this is how many images fuckflickr resizes on one refresh
 // 10 is a good amnt - you dont want to hammer your server
@@ -20,14 +20,14 @@ $LINK = "http://fffff.at/fuckflickr/";
 $PROCESS_NUM = 10;
 
 // use clean urls? e.g. /fuckflickr/dir1 instead of /fuckflickr/index.php?dir=data/dir1 
-// requires mod_rewrite -- uncomment noted lines in .htaccess as well
+// requires mod_rewrite -- if false, you can comment out lines 22 & 23 if there are errors
 $CLEAN_URLS = true;
 
-// we're not going to make you but we like cc licenses vs hardcore copywrite 
+// we're not going to make you but we like cc licenses vs hardcore copyright
 $CC_LICENSE = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 License</a>';
 
 // your anti flickr message for the title & footer of each page
-$ANTI_FLICKR_MSG = "FUCK FLICKR";
+$ANTI_FLICKR_MSG = "";
 
 // separator for title
 $SEPARATOR = ' &ndash; ';
@@ -37,7 +37,7 @@ $LIGHTBOX_DEFAULT = true;
 
 // any extra dirs you want to exclude from the index list? comma-separated (no spaces)
 // can still view them, they just won't be listed
-$EXCLUDE_DIRS = "secret,top_secret";
+$EXCLUDE_DIRS = "supersecret";
 
 // image quality
 // 	Optional "quality" parameter (defaults is 3). Fractional values are allowed, for example 1.5. Must be greater than zero.
@@ -53,11 +53,10 @@ $IMAGE_QUALITY = 3;
 $IMAGES_PER_PAGE = 25;
 
 // what's yr theme? (keep the trailing slash)
-$THEME = 'fuckflickr/';
+$THEME = 'oinkoink/';
 
 // enable caching? important if you have lots of photos
 $CACHING_ENABLED = true;
-
 
 // ------------------
 
